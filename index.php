@@ -1,6 +1,6 @@
 <?php
 
-require_once 'duomenu_baze.php';
+require_once 'database.php';
 
 
 $result = $db->query('SELECT * FROM employees');

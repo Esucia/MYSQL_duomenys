@@ -1,6 +1,6 @@
 <?php
 
-require_once 'duomenu_baze.php';
+require_once 'database.php';
 
 $id=$_GET['id'];
 $stm = $db->prepare("SELECT * FROM employees WHERE id=?");
